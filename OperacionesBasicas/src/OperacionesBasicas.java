@@ -7,6 +7,7 @@ public class OperacionesBasicas {
             return 0;
         }
     }
+	///////////////////////////////////////////
     public double Resta(double a, double b){
         if (a>b){
             return a-b;
@@ -14,6 +15,7 @@ public class OperacionesBasicas {
             return 0;
         }
     }
+	///////////////////////////////////////////
     public double Multiplicacion(double a, double b){
         if(b!=0){
             return a*b;
@@ -21,6 +23,7 @@ public class OperacionesBasicas {
             return 1;
         }
     }
+	///////////////////////////////////////////
     public double Division(double a, double b){
         if(b!=0){
             return a/b;
